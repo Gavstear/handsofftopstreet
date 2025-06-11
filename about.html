@@ -3,57 +3,118 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Us - Hands Off Top Street</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>About - Hands Off Top Street</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f7f9fc;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(120deg, #003049, #d62828);
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0.2rem 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.2rem;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #f1f1f1;
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    nav a {
+      color: #003049;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #d62828;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2rem;
+      color: #003049;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .cta {
+      margin-top: 3rem;
+      text-align: center;
+    }
+    .cta a {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      color: white;
+      background-color: #d62828;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .cta a:hover {
+      background-color: #a41e1e;
+    }
+    footer {
+      background-color: #003049;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>About Our Campaign</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="objections.html">Objections</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <h1>Hands Off Top Street</h1>
+    <p>Protecting Appleby Magna from speculative development</p>
   </header>
-  
-  <main>
-    <section>
-      <h2>Our Mission</h2>
-      <p>
-        We are a community-led group of concerned residents from Appleby Magna and surrounding areas who strongly oppose the proposed housing development off Top Street by Cameron Homes and their planning agent Evolve. This development would place 50 houses on a precious greenfield site, permanently destroying countryside, damaging the village's historic character, and putting strain on local infrastructure.
-      </p>
-
-      <h2>Why We Are Objecting</h2>
-      <p>
-        A similar proposal was previously refused when submitted by Bloor Homes under application reference 14/00082/OUTM, and none of the key reasons for refusal have changed. The land is outside the Limits to Development, is not a preferred site in the Local Plan (AP1 is preferred), and the development would significantly harm the rural landscape and the heritage setting of this historic Leicestershire village.
-      </p>
-
-      <p>
-        We are particularly concerned about:
-      </p>
-      <ul>
-        <li>Loss of valuable countryside and biodiversity</li>
-        <li>Adverse impact on the character and setting of the Appleby Magna Conservation Area</li>
-        <li>Existing infrastructure already being at capacity (roads, school, services)</li>
-        <li>Lack of meaningful consultation — the first we heard was a leaflet drop in late May 2025</li>
-        <li>The developer’s track record of broken promises and enforcement issues elsewhere</li>
-      </ul>
-
-      <p>
-        This campaign is about protecting not just Appleby Magna, but rural communities across the UK from unsustainable and unwanted developments. Once countryside is lost, it is gone forever.
-      </p>
-
-      <p>
-        We invite all residents and supporters to learn more, get involved, and help us preserve our local environment and heritage.
-      </p>
-    </section>
-  </main>
-
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="timeline.html">Timeline</a>
+    <a href="evidence.html">Evidence</a>
+    <a href="media.html">Media</a>
+    <a href="get-involved.html">Get Involved</a>
+    <a href="developers.html">Developers</a>
+    <a href="faq.html">FAQ</a>
+    <a href="gallery.html">Gallery</a>
+  </nav>
+  <section>
+    <h2>About</h2>
+    <p>This is the About page for the Hands Off Top Street campaign.</p>
+    
+  </section>
   <footer>
-    <p>&copy; 2025 Hands Off Top Street Campaign</p>
+    <p>&copy; 2025 Hands Off Top Street. All rights reserved.</p>
   </footer>
 </body>
 </html>
